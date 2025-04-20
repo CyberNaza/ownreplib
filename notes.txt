@@ -1,0 +1,4 @@
+->>>>pdf2image uchun yuklash kamandasi
+sudo apt update
+sudo apt install poppler-utils
+
