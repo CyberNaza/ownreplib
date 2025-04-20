@@ -1,4 +1,4 @@
-#!/home/rak/mylibrary/venv/bin/python3.11
+#!/home/rak/mylib/ownreplib/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
