@@ -1,0 +1,1187 @@
+Watching for file changes with StatReloader
+/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/rest_framework/pagination.py:207: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'library.models.Book'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[22/Apr/2025 10:45:58] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:45:59] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:45:59] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:03] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+Not Found: /favicon.ico
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:04] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:05] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:46:37] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:47:36] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:47:50] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:47:50] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:47:50] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:48:29] "GET //media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700
+[22/Apr/2025 10:48:41] "GET //media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 200 3755971
+[22/Apr/2025 10:49:26] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 10:49:37] "GET //media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 200 3755971
+[22/Apr/2025 10:49:58] "GET //media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700
+[22/Apr/2025 10:50:00] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:50:01] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:50:16] "GET //media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 10:50:58] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:50:58] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700
+Not Found: /
+[22/Apr/2025 10:51:36] "GET / HTTP/1.1" 404 3338
+Not Found: /favicon.ico
+[22/Apr/2025 10:51:36] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 10:51:44] "GET /swagger HTTP/1.1" 301 0
+[22/Apr/2025 10:51:44] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+[22/Apr/2025 10:51:44] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+[22/Apr/2025 10:51:46] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+[22/Apr/2025 10:51:46] "GET /swagger/?format=openapi HTTP/1.1" 200 3001
+[22/Apr/2025 10:51:46] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[22/Apr/2025 10:51:53] "GET /library/books/ HTTP/1.1" 200 306
+Bad Request: /authonticate/verify-code/
+[22/Apr/2025 10:52:55] "POST /authonticate/verify-code/ HTTP/1.1" 400 45
+[22/Apr/2025 10:53:08] "POST /authonticate/register/register/ HTTP/1.1" 201 49
+[22/Apr/2025 10:57:43] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 10:57:43] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 11:00:58] "GET /admin HTTP/1.1" 301 0
+[22/Apr/2025 11:00:58] "GET /admin/ HTTP/1.1" 302 0
+[22/Apr/2025 11:00:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+[22/Apr/2025 11:00:59] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[22/Apr/2025 11:00:59] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[22/Apr/2025 11:00:59] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[22/Apr/2025 11:00:59] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[22/Apr/2025 11:00:59] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[22/Apr/2025 11:00:59] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[22/Apr/2025 11:00:59] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[22/Apr/2025 11:01:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4321
+[22/Apr/2025 11:01:09] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Apr/2025 11:01:09] "GET /admin/ HTTP/1.1" 200 10032
+[22/Apr/2025 11:01:09] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[22/Apr/2025 11:01:09] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[22/Apr/2025 11:01:09] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[22/Apr/2025 11:01:11] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 10810
+[22/Apr/2025 11:01:11] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[22/Apr/2025 11:01:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:01:11] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[22/Apr/2025 11:01:11] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[22/Apr/2025 11:01:11] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[22/Apr/2025 11:01:11] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[22/Apr/2025 11:01:11] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[22/Apr/2025 11:01:11] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[22/Apr/2025 11:01:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[22/Apr/2025 11:01:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[22/Apr/2025 11:01:12] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[22/Apr/2025 11:01:13] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[22/Apr/2025 11:01:14] "GET /admin/accounts/verificationcode/5/change/ HTTP/1.1" 200 12532
+[22/Apr/2025 11:01:14] "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+[22/Apr/2025 11:01:14] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[22/Apr/2025 11:01:14] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+[22/Apr/2025 11:01:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:01:15] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[22/Apr/2025 11:01:15] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[22/Apr/2025 11:01:17] "GET /admin/accounts/verificationcode/5/delete/ HTTP/1.1" 200 9457
+[22/Apr/2025 11:01:17] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[22/Apr/2025 11:01:19] "POST /admin/accounts/verificationcode/5/delete/ HTTP/1.1" 302 0
+[22/Apr/2025 11:01:19] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9667
+[22/Apr/2025 11:01:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:01:19] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[22/Apr/2025 11:03:39] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 11:03:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /authenticate/register/register/
+[22/Apr/2025 11:08:53] "POST /authenticate/register/register/ HTTP/1.1" 404 3450
+Not Found: /authenticate/register/register/
+[22/Apr/2025 11:14:27] "POST /authenticate/register/register/ HTTP/1.1" 404 3450
+Method Not Allowed: /authonticate/register/register/
+[22/Apr/2025 11:15:34] "GET /authonticate/register/register/ HTTP/1.1" 405 8218
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:17:42] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Method Not Allowed: /authonticate/register/register/
+[22/Apr/2025 11:17:52] "GET /authonticate/register/register/ HTTP/1.1" 405 40
+[22/Apr/2025 11:19:19] "GET /library/books/ HTTP/1.1" 200 7248
+[22/Apr/2025 11:19:26] "GET /swagger HTTP/1.1" 301 0
+[22/Apr/2025 11:19:26] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+[22/Apr/2025 11:19:26] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[22/Apr/2025 11:19:26] "GET /swagger/?format=openapi HTTP/1.1" 200 3001
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:19:31] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:20:36] "GET //media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 304 0
+[22/Apr/2025 11:20:36] "GET //media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 304 0
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:22:00] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:22:30] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:24:15] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 11:24:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /authenticate/register/register/
+[22/Apr/2025 11:25:25] "POST /authenticate/register/register/ HTTP/1.1" 404 3450
+Not Found: /authenticate/register/register/
+[22/Apr/2025 11:25:42] "GET /authenticate/register/register/ HTTP/1.1" 404 3449
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:26:41] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:27:16] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 11:27:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:27:18] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 11:27:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:27:19] "GET /admin/accounts/customuser/ HTTP/1.1" 200 12742
+[22/Apr/2025 11:27:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:28:00] "POST /authonticate/register/register/ HTTP/1.1" 201 55
+[22/Apr/2025 11:28:44] "OPTIONS /authonticate/register/register/ HTTP/1.1" 200 0
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:46] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:47] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:48] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:28:51] "POST /authonticate/register/register/ HTTP/1.1" 201 63
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:53] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:53] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:53] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:28:53] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:29:04] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 11094
+[22/Apr/2025 11:29:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:29:05] "GET /admin/accounts/verificationcode/7/change/ HTTP/1.1" 200 12648
+[22/Apr/2025 11:29:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:30:37] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:30:41] "POST /authonticate/register/register/ HTTP/1.1" 201 63
+Bad Request: /authonticate/verify-code/
+[22/Apr/2025 11:32:52] "POST /authonticate/verify-code/ HTTP/1.1" 400 66
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:06] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:35:06] "POST /authonticate/register/register/ HTTP/1.1" 201 63
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:12] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:12] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:12] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:12] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:12] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:13] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:13] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:35:15] "POST /authonticate/register/register/ HTTP/1.1" 201 66
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:22] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:23] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:23] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:24] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:35:24] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:37:49] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:37:50] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:37:50] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:37:50] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:37:50] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:37:52] "POST /authonticate/register/register/ HTTP/1.1" 201 68
+[22/Apr/2025 11:38:15] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 12220
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:24] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:25] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:25] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:25] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:25] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:25] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:26] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:26] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:26] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:26] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:39:26] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:39:28] "POST /authonticate/register/register/ HTTP/1.1" 201 64
+[22/Apr/2025 11:39:38] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 12499
+[22/Apr/2025 11:39:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:39:39] "GET /admin/accounts/verificationcode/12/change/ HTTP/1.1" 200 12952
+[22/Apr/2025 11:39:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:39:41] "OPTIONS /authonticate/verify-code/ HTTP/1.1" 200 0
+[22/Apr/2025 11:39:41] "POST /authonticate/verify-code/ HTTP/1.1" 200 40
+[22/Apr/2025 11:39:55] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 12220
+[22/Apr/2025 11:39:57] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 12220
+[22/Apr/2025 11:39:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:39:58] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 12220
+[22/Apr/2025 11:39:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:40:01] "GET /admin/accounts/customuser/ HTTP/1.1" 200 14920
+[22/Apr/2025 11:40:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:40:03] "GET /admin/accounts/customuser/15/change/ HTTP/1.1" 200 22826
+[22/Apr/2025 11:40:03] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[22/Apr/2025 11:40:03] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[22/Apr/2025 11:40:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:40:03] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[22/Apr/2025 11:40:03] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[22/Apr/2025 11:40:04] "GET /admin/accounts/customuser/ HTTP/1.1" 200 14920
+[22/Apr/2025 11:42:25] "POST /authonticate/register/register/ HTTP/1.1" 201 68
+Method Not Allowed: /authonticate/register/register/
+[22/Apr/2025 11:45:40] "GET /authonticate/register/register/ HTTP/1.1" 405 8218
+Method Not Allowed: /authonticate/register/register/
+[22/Apr/2025 11:45:40] "GET /authonticate/register/register/ HTTP/1.1" 405 8218
+Method Not Allowed: /authonticate/register/register/
+[22/Apr/2025 11:45:41] "GET /authonticate/register/register/ HTTP/1.1" 405 8218
+[22/Apr/2025 11:45:48] "POST /authonticate/register/register/ HTTP/1.1" 201 66
+[22/Apr/2025 11:45:53] "GET /admin/accounts/customuser/ HTTP/1.1" 200 15554
+[22/Apr/2025 11:45:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 11:47:10] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 11:47:20] "POST /authonticate/register/register/ HTTP/1.1" 201 67
+[22/Apr/2025 11:48:06] "POST /authonticate/register/register/ HTTP/1.1" 201 69
+[22/Apr/2025 11:49:44] "POST /authonticate/register/register/ HTTP/1.1" 201 70
+[22/Apr/2025 11:52:48] "POST /authonticate/register/register/ HTTP/1.1" 201 71
+[22/Apr/2025 11:54:40] "GET /admin/accounts/customuser/ HTTP/1.1" 200 16832
+[22/Apr/2025 11:54:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:54:41] "GET /admin/accounts/customuser/ HTTP/1.1" 200 16832
+[22/Apr/2025 11:54:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 11:54:41] "GET /admin/accounts/customuser/ HTTP/1.1" 200 16832
+[22/Apr/2025 11:54:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:03:40] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:03:40] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 12:03:53] "OPTIONS /authonticate/register/ HTTP/1.1" 200 0
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:03:53] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:03:55] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:04:09] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:04:09] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:04:10] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:04:10] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:07:17] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:07:20] "POST /authonticate/register/ HTTP/1.1" 405 41
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:07:21] "POST /authonticate/register/ HTTP/1.1" 405 41
+Not Found: /auth
+[22/Apr/2025 12:10:50] "GET /auth HTTP/1.1" 404 3368
+Not Found: /favicon.ico
+[22/Apr/2025 12:10:50] "GET /favicon.ico HTTP/1.1" 404 3389
+Method Not Allowed: /authonticate/register/
+[22/Apr/2025 12:11:42] "POST /authonticate/register/ HTTP/1.1" 405 41
+[22/Apr/2025 12:13:32] "OPTIONS /authenticate/register/ HTTP/1.1" 200 0
+Not Found: /authenticate/register/
+[22/Apr/2025 12:13:32] "POST /authenticate/register/ HTTP/1.1" 404 3423
+[22/Apr/2025 12:16:28] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:16:29] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 12:17:21] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 12:17:37] "POST /authonticate/register/register/ HTTP/1.1" 201 56
+[22/Apr/2025 12:17:57] "OPTIONS /authenticate/register/ HTTP/1.1" 200 0
+Not Found: /authenticate/register/
+[22/Apr/2025 12:17:57] "POST /authenticate/register/ HTTP/1.1" 404 3423
+Not Found: /authenticate/register/
+[22/Apr/2025 12:18:12] "GET /authenticate/register/ HTTP/1.1" 404 3422
+Not Found: /favicon.ico
+[22/Apr/2025 12:18:12] "GET /favicon.ico HTTP/1.1" 404 3389
+Not Found: /authenticate/register/
+[22/Apr/2025 12:18:48] "POST /authenticate/register/ HTTP/1.1" 404 3423
+Not Found: /authenticate/register/
+[22/Apr/2025 12:18:50] "POST /authenticate/register/ HTTP/1.1" 404 3423
+[22/Apr/2025 12:18:55] "OPTIONS /authonticate/register/register/ HTTP/1.1" 200 0
+[22/Apr/2025 12:18:59] "POST /authonticate/register/register/ HTTP/1.1" 201 42
+Method Not Allowed: /authonticate/verify-code/
+[22/Apr/2025 12:23:45] "GET /authonticate/verify-code/ HTTP/1.1" 405 5623
+[22/Apr/2025 12:25:11] "GET /admin/accounts/customuser/ HTTP/1.1" 200 17414
+[22/Apr/2025 12:25:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:25:12] "GET /admin/accounts/customuser/23/change/ HTTP/1.1" 200 22751
+[22/Apr/2025 12:25:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:25:14] "GET /admin/accounts/customuser/ HTTP/1.1" 200 17414
+[22/Apr/2025 12:25:15] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 14475
+[22/Apr/2025 12:25:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:25:17] "GET /admin/accounts/verificationcode/20/change/ HTTP/1.1" 200 13406
+[22/Apr/2025 12:25:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:25:18] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 14475
+[22/Apr/2025 12:25:21] "GET /admin/accounts/verificationcode/20/change/ HTTP/1.1" 200 13406
+[22/Apr/2025 12:25:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:25:53] "POST /authonticate/register/register/ HTTP/1.1" 201 59
+[22/Apr/2025 12:26:06] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 14742
+[22/Apr/2025 12:26:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:26:08] "GET /admin/accounts/verificationcode/21/change/ HTTP/1.1" 200 13471
+[22/Apr/2025 12:26:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:29:21] "POST /authonticate/register/register/ HTTP/1.1" 201 43
+[22/Apr/2025 12:29:33] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 15007
+[22/Apr/2025 12:29:35] "GET /admin/accounts/verificationcode/22/change/ HTTP/1.1" 200 13515
+[22/Apr/2025 12:29:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:29:45] "OPTIONS /authenticate/verify-code/ HTTP/1.1" 200 0
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:29:45] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+[22/Apr/2025 12:29:52] "OPTIONS /authonticate/resend-code/ HTTP/1.1" 200 0
+Not Found: /authonticate/resend-code/
+[22/Apr/2025 12:29:52] "POST /authonticate/resend-code/ HTTP/1.1" 404 4075
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:29:55] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:29:56] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:29:56] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:29:57] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authonticate/resend-code/
+[22/Apr/2025 12:30:07] "GET /authonticate/resend-code/ HTTP/1.1" 404 4074
+Not Found: /favicon.ico
+[22/Apr/2025 12:30:07] "GET /favicon.ico HTTP/1.1" 404 3389
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:24] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:25] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+[22/Apr/2025 12:30:34] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 15007
+[22/Apr/2025 12:30:35] "GET /admin/accounts/verificationcode/22/change/ HTTP/1.1" 200 13515
+[22/Apr/2025 12:30:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:44] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:48] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:48] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Not Found: /authenticate/verify-code/
+[22/Apr/2025 12:30:48] "POST /authenticate/verify-code/ HTTP/1.1" 404 3432
+Method Not Allowed: /authonticate/verify-code/
+[22/Apr/2025 12:30:50] "GET /authonticate/verify-code/ HTTP/1.1" 405 5623
+[22/Apr/2025 12:30:50] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[22/Apr/2025 12:30:50] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[22/Apr/2025 12:30:50] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[22/Apr/2025 12:30:50] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[22/Apr/2025 12:30:50] "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[22/Apr/2025 12:30:51] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[22/Apr/2025 12:30:51] "GET /favicon.ico HTTP/1.1" 404 3389
+Method Not Allowed: /authonticate/verify-code/
+[22/Apr/2025 12:33:53] "GET /authonticate/verify-code/ HTTP/1.1" 405 5623
+Not Found: /favicon.ico
+[22/Apr/2025 12:33:54] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 12:34:15] "OPTIONS /authonticate/verify-code/ HTTP/1.1" 200 0
+[22/Apr/2025 12:34:15] "POST /authonticate/verify-code/ HTTP/1.1" 200 40
+[22/Apr/2025 12:34:17] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:34:17] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 12:34:26] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 14742
+[22/Apr/2025 12:34:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:34:29] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18018
+[22/Apr/2025 12:34:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:34:30] "GET /admin/accounts/customuser/25/change/ HTTP/1.1" 200 22763
+[22/Apr/2025 12:34:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:34:31] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18018
+[22/Apr/2025 12:34:32] "GET /admin/accounts/customuser/25/change/ HTTP/1.1" 200 22763
+[22/Apr/2025 12:34:55] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18018
+Bad Request: /authonticate/register/register/
+[22/Apr/2025 12:36:42] "POST /authonticate/register/register/ HTTP/1.1" 400 57
+[22/Apr/2025 12:36:52] "POST /authonticate/register/register/ HTTP/1.1" 201 61
+[22/Apr/2025 12:37:13] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18339
+[22/Apr/2025 12:37:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:13] "GET /admin/accounts/customuser/26/change/ HTTP/1.1" 200 22824
+[22/Apr/2025 12:37:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:15] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18339
+[22/Apr/2025 12:37:16] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 15009
+[22/Apr/2025 12:37:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:17] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 15009
+[22/Apr/2025 12:37:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:23] "GET /admin/accounts/verificationcode/23/change/ HTTP/1.1" 200 13582
+[22/Apr/2025 12:37:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:28] "POST /authonticate/verify-code/ HTTP/1.1" 200 40
+[22/Apr/2025 12:37:29] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:37:29] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 12:37:36] "GET /admin/accounts/customuser/ HTTP/1.1" 200 18339
+[22/Apr/2025 12:37:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:43] "POST /admin/accounts/customuser/ HTTP/1.1" 200 15219
+[22/Apr/2025 12:37:45] "POST /admin/accounts/customuser/ HTTP/1.1" 302 0
+[22/Apr/2025 12:37:45] "GET /admin/accounts/customuser/ HTTP/1.1" 200 10903
+[22/Apr/2025 12:37:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:47] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 12:37:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:49] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 9501
+[22/Apr/2025 12:37:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:50] "GET /admin/accounts/comment/ HTTP/1.1" 200 10809
+[22/Apr/2025 12:37:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:53] "GET /admin/accounts/customuser/ HTTP/1.1" 200 10760
+[22/Apr/2025 12:37:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 12:37:57] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 12:37:57] "GET /swagger/?format=openapi HTTP/1.1" 200 3001
+Bad Request: /authonticate/login/
+[22/Apr/2025 12:38:20] "POST /authonticate/login/ HTTP/1.1" 400 68
+Method Not Allowed: /authonticate/login/
+[22/Apr/2025 12:38:38] "GET /authonticate/login/ HTTP/1.1" 405 7540
+[22/Apr/2025 12:39:47] "POST /authonticate/login/ HTTP/1.1" 200 483
+[22/Apr/2025 12:42:08] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:42:16] "OPTIONS /authonticate/login/ HTTP/1.1" 200 0
+[22/Apr/2025 12:42:17] "POST /authonticate/login/ HTTP/1.1" 200 483
+[22/Apr/2025 12:42:18] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 12:43:06] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700
+/home/rak/mylib/ownreplib/accounts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 10:45:30
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Verification code for user@example.com: 573216
+Verification code for newuser@example.com: 806118
+Verification code for nazarbeknazarov773@gmail.com: 384105
+Verification code for nazarbeknazarov775@gmail.com: 220526
+Verification code for nazarbeknazarov772@gmail.com: 262720
+Verification code for nazarbeknazarov776@gmail.com: 340045
+Verification code for nazarbeknazarov4473@gmail.com: 683122
+Verification code for nazarbeknazarov7733@gmail.com: 602168
+Before: is_verified = False
+After: is_verified = True
+Verification code for nazarbeknazarov7734@gmail.com: 688240
+Verification code for nazarbeknazarov773888@gmail.com: 559088
+Verification code for nazarbeknazarov7273888@gmail.com: 801647
+Verification code for nazarbeknazarov77334@gmail.com: 990205
+Verification code for nazarbeknazarov773344@gmail.com: 322005
+Verification code for nazarbeknazarov7733344@gmail.com: 677851
+Verification code for n1ewuser@example.com: 155674
+Verification code for naza@gmail.com: 259453
+Verification code for nazarbeknazaro44v773@gmail.com: 769641
+Verification code for naza4@gmail.com: 682513
+Before: is_verified = False
+After: is_verified = True
+Verification code for nazarbeknazaro44v77333@gmail.com: 788453
+Before: is_verified = False
+After: is_verified = True
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:53:36
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:55:09
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/main/urls.py", line 33, in <module>
+    path('authonticate/', include('accounts.urls')),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/accounts/urls.py", line 4, in <module>
+    from .views import *
+  File "/home/rak/mylib/ownreplib/accounts/views.py", line 3, in <module>
+    from .serializers import RegisterSerializer
+  File "/home/rak/mylib/ownreplib/accounts/serializers.py", line 54
+    """
+IndentationError: unexpected indent
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:57:45
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/main/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:57:53
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/main/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:59:15
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/main/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:59:16
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:59:18
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/main/urls.py", line 33, in <module>
+    path('authonticate/', include('accounts.urls')),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/accounts/urls.py", line 4, in <module>
+    from .views import *
+  File "/home/rak/mylib/ownreplib/accounts/views.py", line 3, in <module>
+    from .serializers import RegisterSerializer
+  File "/home/rak/mylib/ownreplib/accounts/serializers.py", line 11, in <module>
+    from your_app.models import CustomUser
+ModuleNotFoundError: No module named 'your_app'
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:59:47
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 12:59:55
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/main/urls.py", line 33, in <module>
+    path('authonticate/', include('accounts.urls')),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/accounts/urls.py", line 4, in <module>
+    from .views import *
+  File "/home/rak/mylib/ownreplib/accounts/views.py", line 50, in <module>
+    from your_app.serializers import MeSerializer
+ModuleNotFoundError: No module named 'your_app'
+/home/rak/mylib/ownreplib/accounts/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:00:08
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:00:15
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:00:27
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+[22/Apr/2025 13:08:48] "GET //media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 304 0
+Not Found: /favicon.ico
+Not Found: /authonticate/user/
+[22/Apr/2025 13:09:30] "GET /authonticate/user/ HTTP/1.1" 404 4323
+Not Found: /favicon.ico
+[22/Apr/2025 13:09:30] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 13:09:32] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 13:09:33] "GET /swagger/?format=openapi HTTP/1.1" 200 3367
+[22/Apr/2025 13:09:34] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 13:09:35] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 13:09:35] "GET /swagger/?format=openapi HTTP/1.1" 200 3367
+Not Found: /authonticate/user/
+[22/Apr/2025 13:09:46] "GET /authonticate/user/ HTTP/1.1" 404 4323
+Not Found: /authonticate/me/
+[22/Apr/2025 13:09:49] "GET /authonticate/me/ HTTP/1.1" 404 4317
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:09:55] "GET /authonticate/auth/me/ HTTP/1.1" 401 58
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:10:02] "GET /authonticate/auth/me/ HTTP/1.1" 401 5063
+/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/rest_framework/pagination.py:207: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'library.models.Book'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[22/Apr/2025 13:14:15] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:14:15] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 13:14:16] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:14:18] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:14:22] "POST /authonticate/login/ HTTP/1.1" 200 624
+[22/Apr/2025 13:14:24] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+Not Found: /authonticate/some/protected/endpoint/
+[22/Apr/2025 13:15:53] "GET /authonticate/some/protected/endpoint/ HTTP/1.1" 404 4380
+Not Found: /favicon.ico
+[22/Apr/2025 13:15:53] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 13:16:25] "GET /swagger/ HTTP/1.1" 200 2215
+[22/Apr/2025 13:16:25] "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+[22/Apr/2025 13:16:25] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+[22/Apr/2025 13:16:26] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+[22/Apr/2025 13:16:26] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+[22/Apr/2025 13:16:26] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+[22/Apr/2025 13:16:27] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+[22/Apr/2025 13:16:27] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+[22/Apr/2025 13:16:28] "GET /swagger/?format=openapi HTTP/1.1" 200 3367
+[22/Apr/2025 13:16:28] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[22/Apr/2025 13:16:32] "GET /library/books/ HTTP/1.1" 200 306
+Not Found: /library/books/list/
+[22/Apr/2025 13:18:14] "GET /library/books/list/ HTTP/1.1" 404 3527
+Not Found: /favicon.ico
+[22/Apr/2025 13:18:15] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 13:18:21] "GET /library/books/ HTTP/1.1" 200 7248
+Not Found: /favicon.ico
+[22/Apr/2025 13:18:21] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 13:18:42] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:18:46] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:19:03] "POST /authonticate/login/ HTTP/1.1" 200 624
+[22/Apr/2025 13:19:05] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+Not Found: /library/books/list/
+[22/Apr/2025 13:24:02] "GET /library/books/list/?page=1&page_size=10 HTTP/1.1" 404 3551
+Not Found: /library/books/list/
+[22/Apr/2025 13:24:04] "GET /library/books/list/?page=1&page_size=10 HTTP/1.1" 404 3551
+Not Found: /library/books/list/
+[22/Apr/2025 13:24:18] "GET /library/books/list/?page=1&page_size=10 HTTP/1.1" 404 3551
+Not Found: /library/books/list/
+[22/Apr/2025 13:24:19] "GET /library/books/list/?page=1&page_size=10 HTTP/1.1" 404 3551
+Not Found: /library/books/list/
+[22/Apr/2025 13:24:26] "GET /library/books/list/?page=1&page_size=10 HTTP/1.1" 404 3551
+[22/Apr/2025 13:25:27] "GET /library/books/ HTTP/1.1" 200 7248
+Not Found: /favicon.ico
+[22/Apr/2025 13:25:27] "GET /favicon.ico HTTP/1.1" 404 3389
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:19] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:20] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:23] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:49] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:50] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /library/books/
+[22/Apr/2025 13:26:51] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:28:25] "GET /authonticate/auth/me/ HTTP/1.1" 401 5063
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:28:26] "GET /authonticate/auth/me/ HTTP/1.1" 401 5063
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:28:26] "GET /authonticate/auth/me/ HTTP/1.1" 401 5063
+Unauthorized: /authonticate/auth/me/
+[22/Apr/2025 13:28:26] "GET /authonticate/auth/me/ HTTP/1.1" 401 5063
+[22/Apr/2025 13:28:31] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 200 540434
+Unauthorized: /library/books/
+[22/Apr/2025 13:28:52] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 401 172
+[22/Apr/2025 13:29:12] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:12] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 304 0
+[22/Apr/2025 13:29:26] "OPTIONS /authonticate/login/ HTTP/1.1" 200 0
+[22/Apr/2025 13:29:27] "POST /authonticate/login/ HTTP/1.1" 200 624
+[22/Apr/2025 13:29:28] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:32] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:32] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:32] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:36] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:39] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:40] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:50] "POST /authonticate/login/ HTTP/1.1" 200 624
+[22/Apr/2025 13:29:51] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:52] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:52] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:52] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:53] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:53] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:53] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:53] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:54] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:54] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:56] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:57] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:57] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:29:57] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:30:00] "GET /media/books_pdfs/Art_of_Designing_Embedded_Systemstqw_darksiderg.pdf HTTP/1.1" 200 3755971
+[22/Apr/2025 13:30:07] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:30:12] "POST /authonticate/login/ HTTP/1.1" 200 624
+[22/Apr/2025 13:30:13] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:30:18] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:30:37] "OPTIONS /authonticate/register/register/ HTTP/1.1" 200 0
+[22/Apr/2025 13:30:42] "POST /authonticate/register/register/ HTTP/1.1" 201 71
+[22/Apr/2025 13:31:53] "POST /authonticate/register/register/ HTTP/1.1" 201 71
+[22/Apr/2025 13:32:12] "POST /authonticate/verify-code/ HTTP/1.1" 200 40
+[22/Apr/2025 13:32:13] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:32:23] "POST /authonticate/login/ HTTP/1.1" 200 661
+[22/Apr/2025 13:32:25] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:32:49] "GET /admin/ HTTP/1.1" 200 12090
+[22/Apr/2025 13:32:49] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[22/Apr/2025 13:33:03] "GET /admin/accounts/comment/ HTTP/1.1" 200 10809
+[22/Apr/2025 13:33:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 13:33:04] "GET /admin/ HTTP/1.1" 200 12090
+[22/Apr/2025 13:33:05] "GET /admin/accounts/verificationcode/ HTTP/1.1" 200 10832
+[22/Apr/2025 13:33:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 13:33:06] "GET /admin/accounts/verificationcode/24/change/ HTTP/1.1" 200 12369
+[22/Apr/2025 13:33:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[22/Apr/2025 13:33:22] "GET /admin/accounts/verificationcode/24/delete/ HTTP/1.1" 200 9489
+[22/Apr/2025 13:33:23] "GET /admin/accounts/verificationcode/24/change/ HTTP/1.1" 200 12369
+[22/Apr/2025 13:33:35] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:33:36] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+Bad Request: /authonticate/login/
+[22/Apr/2025 13:33:41] "POST /authonticate/login/ HTTP/1.1" 400 97
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:00:36
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Verification code for nazarbeknazarov773@gmail.com: 383085
+Verification code for nazarbeknazarov772@gmail.com: 720138
+Before: is_verified = False
+After: is_verified = True
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:38:27
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Bad Request: /authonticate/login/
+[22/Apr/2025 13:38:45] "POST /authonticate/login/ HTTP/1.1" 400 97
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:38:39
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:40:09
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:40:31
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/main/urls.py", line 33, in <module>
+    path('authonticate/', include('accounts.urls')),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/accounts/urls.py", line 4, in <module>
+    from .views import *
+  File "/home/rak/mylib/ownreplib/accounts/views.py", line 3, in <module>
+    from .serializers import RegisterSerializer
+  File "/home/rak/mylib/ownreplib/accounts/serializers.py", line 67, in <module>
+    class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'TokenObtainPairSerializer' is not defined
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/main/urls.py", line 33, in <module>
+    path('authonticate/', include('accounts.urls')),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/rak/mylib/ownreplib/accounts/urls.py", line 4, in <module>
+    from .views import *
+  File "/home/rak/mylib/ownreplib/accounts/views.py", line 3, in <module>
+    from .serializers import RegisterSerializer
+  File "/home/rak/mylib/ownreplib/accounts/serializers.py", line 67, in <module>
+    class TokenObtainPairSerializer(TokenObtainPairSerializer):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'TokenObtainPairSerializer' is not defined
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:41:54
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+/home/rak/mylib/ownreplib/accounts/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 22, 2025 - 13:42:26
+Django version 5.1.6, using settings 'main.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Unauthorized: /authonticate/login/
+[22/Apr/2025 13:42:50] "POST /authonticate/login/ HTTP/1.1" 401 85
+Unauthorized: /authonticate/login/
+[22/Apr/2025 13:43:30] "POST /authonticate/login/ HTTP/1.1" 401 85
+Unauthorized: /authonticate/login/
+[22/Apr/2025 13:43:31] "POST /authonticate/login/ HTTP/1.1" 401 85
+Unauthorized: /authonticate/login/
+[22/Apr/2025 13:43:35] "POST /authonticate/login/ HTTP/1.1" 401 85
+Unauthorized: /authonticate/login/
+[22/Apr/2025 13:43:55] "POST /authonticate/login/ HTTP/1.1" 401 85
+[22/Apr/2025 13:44:17] "POST /authonticate/login/ HTTP/1.1" 200 661
+/home/rak/www/project_klass/.venv/lib/python3.11/site-packages/rest_framework/pagination.py:207: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'library.models.Book'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[22/Apr/2025 13:44:18] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:44:48] "GET /library/books/ HTTP/1.1" 200 7248
+Not Found: /favicon.ico
+[22/Apr/2025 13:44:48] "GET /favicon.ico HTTP/1.1" 404 3389
+[22/Apr/2025 13:44:59] "GET /library/books/?page=1&page_size=10 HTTP/1.1" 200 306
+[22/Apr/2025 13:45:00] "GET /media/books_first_pages/Art_of_Designing_Embedded_Systemstqw_darksiderg_first_page.png HTTP/1.1" 200 998700

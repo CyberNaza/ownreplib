@@ -1,4 +1,11 @@
 from django.contrib import admin
-from .models import *
-# Register your models here.
-admin.site.register(CustomUser)
+from django.apps import apps
+from django.contrib.admin.sites import AlreadyRegistered
+
+app = apps.get_app_config('accounts')
+
+for model in app.get_models():
+    try:
+        admin.site.register(model)
+    except AlreadyRegistered:
+        pass

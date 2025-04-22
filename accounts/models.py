@@ -3,7 +3,7 @@
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.db import models
 from django.utils import timezone
-
+from library.models import *
 class CustomUserManager(BaseUserManager):
     def create_user(self, email, full_name, password=None, **extra_fields):
         if not email:
@@ -28,7 +28,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     is_staff = models.BooleanField(default=False)  # For admin site access
     is_worker = models.BooleanField(default=False) # Your custom role
     is_admin = models.BooleanField(default=False)  # Optional role flag
-    is_verifayed = models.BooleanField(default=False)
+    is_verified = models.BooleanField(default=False)
 
     objects = CustomUserManager()
 
@@ -37,3 +37,42 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+
+
+class Comment(models.Model):
+    owner = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    book = models.ForeignKey(Book, on_delete=models.CASCADE)
+    text = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.owner.full_name} on {self.book.name}"
+
+class Like(models.Model):
+    owner = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    comment = models.ForeignKey(Comment, on_delete=models.CASCADE)
+    liked_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.owner.full_name} liked comment {self.comment.id}"
+
+
+
+
+import random
+from django.utils import timezone
+
+class VerificationCode(models.Model):
+    user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name='verification_code')
+    code = models.CharField(max_length=6)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def generate_code(self):
+        self.code = f"{random.randint(100000, 999999)}"
+        self.created_at = timezone.now()
+        self.save()
+
+    def __str__(self):
+        return f"{self.user.full_name}"
+
