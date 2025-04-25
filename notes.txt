@@ -2,3 +2,10 @@
 sudo apt update
 sudo apt install poppler-utils
 
+
+
+/we are using radis
+sudo systemctl status redis
+
+
+celery -A main worker --loglevel=info

@@ -60,3 +60,28 @@ class MeView(APIView):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .models import Comment, Book
+from .serializers import CommentSerializer
+
+
+class BookCommentsAPIView(APIView):
+    def get(self, request):
+        book_id = request.GET.get('bookId')
+        if not book_id:
+            return Response({"error": "bookId query param is required"}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            book = Book.objects.get(id=book_id)
+        except Book.DoesNotExist:
+            return Response({"error": "Book not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        comments = Comment.objects.filter(book=book).order_by('-created_at')
+        serializer = CommentSerializer(comments, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)

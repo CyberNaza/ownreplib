@@ -76,3 +76,5 @@ class VerificationCode(models.Model):
     def __str__(self):
         return f"{self.user.full_name}"
 
+    def is_time_to_delete(self):
+        return self.created_at + timezone.timedelta(seconds=60) < timezone.now()

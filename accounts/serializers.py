@@ -144,3 +144,37 @@ class VerifyCodeSerializer(serializers.Serializer):
         print(f"After: is_verified = {user.is_verified}")
         user.verification_code.delete()
         return user
+
+
+
+from rest_framework import serializers
+from .models import Comment, Like, CustomUser
+from library.models import Book
+
+class BookSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Book
+        fields = '__all__'
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomUser
+        fields = ['id', 'full_name', 'email']
+
+class LikeSerializer(serializers.ModelSerializer):
+    owner = UserSerializer()
+
+    class Meta:
+        model = Like
+        fields = ['id', 'owner', 'liked_at', 'comment']
+
+
+class CommentSerializer(serializers.ModelSerializer):
+    owner = UserSerializer()
+    likes = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Comment
+        fields = ['id', 'owner', 'text', 'created_at', 'updated_at', 'likes']
+
+    def get_likes(self, obj):
+        return LikeSerializer(Like.objects.filter(comment=obj), many=True).data
