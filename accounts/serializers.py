@@ -160,12 +160,42 @@ class UserSerializer(serializers.ModelSerializer):
         model = CustomUser
         fields = ['id', 'full_name', 'email']
 
+# serializers.py
+
 class LikeSerializer(serializers.ModelSerializer):
-    owner = UserSerializer()
+    owner = UserSerializer(read_only=True)
 
     class Meta:
         model = Like
-        fields = ['id', 'owner', 'liked_at', 'comment']
+        fields = ['id', 'owner', 'comment', 'liked_at']
+        read_only_fields = ['id', 'owner', 'liked_at']
+
+
+
+
+class LikeCreateSerializer(serializers.ModelSerializer):
+    owner = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    action = None
+
+    class Meta:
+        model = Like
+        fields = ['id', 'owner', 'comment', 'liked_at']
+        read_only_fields = ['id', 'owner', 'liked_at']
+
+    def create(self, validated_data):
+        owner = validated_data['owner']
+        comment = validated_data['comment']
+
+        existing_like = Like.objects.filter(owner=owner, comment=comment).first()
+
+        if existing_like:
+            existing_like.delete()
+            self.action = 'disliked'
+            return None
+
+        self.action = 'liked'
+        return super().create(validated_data)
+
 
 
 class CommentSerializer(serializers.ModelSerializer):
@@ -178,3 +208,13 @@ class CommentSerializer(serializers.ModelSerializer):
 
     def get_likes(self, obj):
         return LikeSerializer(Like.objects.filter(comment=obj), many=True).data
+    
+
+
+
+class CommentPostSerializer(serializers.ModelSerializer):
+    owner = UserSerializer(read_only=True)  # << important: read_only
+    class Meta:
+        model = Comment
+        fields = ['id', 'owner', 'book', 'text', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'owner', 'created_at', 'updated_at']

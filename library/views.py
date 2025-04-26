@@ -7,7 +7,7 @@ from .models import Book
 from .serializers import BookSerializer
 from accounts.models import Book, Comment, Like
 from accounts.serializers import BookSerializer, CommentSerializer, LikeSerializer
-
+from rest_framework.permissions import AllowAny
 class BookPagination(PageNumberPagination):
     page_size = 10  # Default page size
     page_size_query_param = 'page_size'
@@ -16,7 +16,7 @@ class BookPagination(PageNumberPagination):
 class BookListView(APIView):
     parser_classes = (MultiPartParser, FormParser)
     pagination_class = BookPagination
-
+    permission_classes = [AllowAny]
     def get(self, request, *args, **kwargs):
         search_query = request.query_params.get('search', None)
         
