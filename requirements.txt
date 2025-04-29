@@ -12,3 +12,8 @@ pytz==2025.2
 PyYAML==6.0.2
 sqlparse==0.5.3
 uritemplate==4.1.1
+gunicorn
+mysqlclient>=2.1.0
+PyMySQL
+python-decouple
+django-cors-headers

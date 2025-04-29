@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  django:
+    build: .
+    container_name: django_app
+    restart: always
+    env_file:
+      - ./main/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: gunicorn main.wsgi:application --bind 0.0.0.0:8000
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_server
+    restart: always
+    ports:
+      - "8080:8000"  # host:container
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./static:/app/static
+      - ./media:/app/media
+    depends_on:
+      - django
+
+volumes:
+  db_data:
